@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val rangoSalud: TextView = findViewById(R.id.range)
         val calcular: Button = findViewById(R.id.calcular)
 
-
+        // Evento
         calcular.setOnClickListener {
             // Convertimos los kilos y estatura a double.
             var peso: Double = 0.0
